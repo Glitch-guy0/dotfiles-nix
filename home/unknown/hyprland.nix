@@ -1,8 +1,10 @@
 { pkgs, lib, inputs, ... }:
 {
   wayland.windowManager.hyprland = {
+    # note: even it's installed through system packages
+    # it should be enabled here to work for user environment
     enable = true;
-    
+
     settings = {
       "$mod" = "SUPER";
       bind =

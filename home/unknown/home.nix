@@ -10,6 +10,7 @@
     neofetch
     vscode
     xdg-utils # for ipc etc...
+    firefox # for testing
   ];
 
   imports = [
